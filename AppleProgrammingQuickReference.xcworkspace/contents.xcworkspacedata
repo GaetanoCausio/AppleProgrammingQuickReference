@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Architecture.playground">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/gaetanocausio/Documents/iOS Development/iOS Projects/My Playgrounds Reference/Apple Programming Quick Reference/3rd Party Library.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Swift Language.playground">
+   </FileRef>
+</Workspace>
