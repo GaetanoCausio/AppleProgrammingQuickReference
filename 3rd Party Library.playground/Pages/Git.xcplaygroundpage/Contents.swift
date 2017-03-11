@@ -37,15 +37,17 @@
  
  if squash was succesfull a new editor will start allowing you to change the commit message (on top of the screen), issue `:q` to quit
  
-## Handy Git commands
+## Handy Git Command Line
  
- `git log --oneline` ➤ Show commit history    
- `git commit --amend` ➤ Amend last commit message
+ `git log --oneline` ➤ Show commit history  \
+ `git commit --amend` ➤ Amend last commit message  \
  `git config --global --edit`  ➤ Edit git configuration and location of .gitignore file
 
 ## Handy links
 
-[Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)   
+[Try git Course](https://try.github.io/levels/1/challenges/1) \
+[Git Real Course](http://gitreal.codeschool.com/?utm_source=github&utm_medium=codeschool_option&utm_campaign=trygit) \
+[Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) \
 [Shields.io Tag Icons](http://shields.io)
  
 */
