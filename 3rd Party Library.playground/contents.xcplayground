@@ -3,8 +3,6 @@
     <pages>
         <page name='Frameworks'/>
         <page name='Jazzy Documentation'/>
-        <page name='Arduino'/>
-        <page name='Unix'/>
         <page name='Unit Test'/>
         <page name='Git'/>
     </pages>
