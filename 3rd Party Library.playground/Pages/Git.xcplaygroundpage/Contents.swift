@@ -37,9 +37,29 @@
  
  if squash was succesfull a new editor will start allowing you to change the commit message (on top of the screen), issue `:q` to quit
  
-## Handy Git Command Line
+## Git Command Line
  
+ `git init` ➤ Initialize a Git repository  \
+ `git status` ➤ See what the current state of our project is  \
+ `git add FileName` ➤ Start tracking changes for FileName  \
+ `git add '*.swift'` ➤ Start tracking changes for all *.swift files  \
+ `git rm '*.c'` ➤ Remove actual files from disk and also stage (track) the removal \
+ `git commit -m "Comment"` ➤ Commit all staged changes   \
  `git log --oneline` ➤ Show commit history  \
+ `git remote add origin https://github.com/link.git` ➤ Add a remote repository  \
+ `git push -u origin master` ➤ Push local commits (master) to remote (origin) repo  \
+ `git push` ➤ Once used -u you don't need to repeat parameters in subsequents push  \
+ `git pull origin master` ➤ Pull down any new changes from remote repo   \
+ `git diff HEAD` ➤ Diff from most recent commit (reffered to as HEAD pointer)  \
+ `git diff --staged` ➤ See changes you just staged.  \
+ `git reset FileName` ➤ Unstage (stop tracking changes) FileName  \
+ `git checkout -- FileName` ➤ Change FileName back to how it was since last commit  \
+ `git branch BranchName` ➤ Create a new branch  \
+ `git checkout BranchName` ➤ Switch to branch BranchName  \
+ `git branch` ➤ Show branches, the onw with * is the active one  \
+ `git merge BranchName` ➤ Merge changes from BranchName into active branch (master)   \
+ `git branch -d BranchName` ➤ Delete a branch \
+ 
  `git commit --amend` ➤ Amend last commit message  \
  `git config --global --edit`  ➤ Edit git configuration and location of .gitignore file
 
