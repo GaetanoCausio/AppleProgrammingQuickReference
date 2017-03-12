@@ -1,32 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playground version='6.0' target-platform='ios' display-mode='rendered' executeOnSourceChanges='false'>
     <pages>
-        <page name='Keyboard Shortcuts'/>
-        <page name='Swift - Markup'/>
-        <page name='Swift - Language'/>
-        <page name='Swift 2.2'/>
-        <page name='Compact Design'/>
-        <page name='Data - In general'/>
-        <page name='Data - Numbers'/>
         <page name='Data - Tuples'/>
-        <page name='Data - Strings'/>
-        <page name='Data - Struct'/>
-        <page name='Data - Collections'/>
-        <page name='Data - Enums'/>
         <page name='Data - DateTime'/>
-        <page name='Networking'/>
-        <page name='Multithreading'/>
-        <page name='Error Handling'/>
-        <page name='Program flow'/>
-        <page name='Objects - Classes'/>
-        <page name='Objects - Protocols'/>
-        <page name='IOS'/>
         <page name='Compiler - Setup'/>
         <page name='Compiler - Macros'/>
-        <page name='Debug'/>
         <page name='Cocoa - Command Line Tool'/>
-        <page name='Framework - CoreGraphics'/>
-        <page name='Internationalization'/>
-        <page name='Algorithm - Tree'/>
     </pages>
 </playground>
