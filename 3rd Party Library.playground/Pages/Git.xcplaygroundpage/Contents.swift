@@ -69,5 +69,6 @@
 [Git Real Course](http://gitreal.codeschool.com/?utm_source=github&utm_medium=codeschool_option&utm_campaign=trygit) \
 [Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) \
 [Shields.io Tag Icons](http://shields.io)
+[Languages Supported](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)
  
 */
