@@ -7,8 +7,6 @@
 A quick reference documentation for all Apple development ecosystems.
 
 This reference guide will be updated and expandend with new topics on regular basis.
-
-<BR>    
----
+<BR /><BR />
+***
 *A continuos learning path where passion is the drive.*
-
