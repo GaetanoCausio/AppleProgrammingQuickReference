@@ -61,28 +61,6 @@
  - Make sure you use the `+` sign when adding your frameworks or executables as drag and drop may not always work as expected!
  - If you get warnings about duplicate references to *libswiftAppKit.dylib* this is due to a swift command line tool embedding a swift framework, but in any case application should run correctly.
 
- ## To be tested (found on Internet)
- 
- ### Swift Package Manager
- 
- Add us to your Package.swift:
- 
- 
-     import PackageDescription
- 
-     let package = Package(
-        name: "My Nerdy App",
-        dependencies: [
-           .Package(url: "https://github.com/bignerdranch/Freddy.git", majorVersion: 2),
-        ]
-     )
-
-### Submodules
- 
- - git submodule add https://github.com/bignerdranch/Freddy.git Vendor/Freddy
- - Drag Freddy.xcodeproj into your Xcode project.
- - Add Freddy.framework to the "Linked Frameworks and Libraries" panel of your application target.
- 
 */
 
 
