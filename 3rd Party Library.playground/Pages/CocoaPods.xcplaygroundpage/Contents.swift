@@ -38,6 +38,8 @@
  end
  ```
  
+ and type `pod install` then open the xcworkspace that has been created. you can import the framework and start using it.
+ 
  ## trouble shooting
  
  In case of issues try one of the following:
@@ -56,6 +58,6 @@
  
  ## Handy links
  
- [CocoaPods](https://cocoapods.org) \
+ [CocoaPods](https://cocoapods.org)
  
  */
