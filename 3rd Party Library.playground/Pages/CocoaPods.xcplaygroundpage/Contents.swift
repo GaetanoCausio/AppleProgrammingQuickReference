@@ -19,8 +19,8 @@
  
  Uninstall each of the components:
  
- `sudo gem uninstall cocoapod`
- `sudo gem uninstall cocoapod-core`
+ `sudo gem uninstall cocoapod`   \
+ `sudo gem uninstall cocoapod-core`   \
  `sudo gem uninstall cocoapod-deintegrate`
  
  ## Install a Package
@@ -38,9 +38,13 @@
  end
  ```
  
- and type `pod install` then open the xcworkspace that has been created. you can import the framework and start using it.
+ then type
  
- ## trouble shooting
+ `pod install` 
+ 
+ and open the xcworkspace that has been created. you can import the framework and start using it.
+ 
+ ## Troubleshooting
  
  In case of issues try one of the following:
  
@@ -49,11 +53,11 @@
  
  Otherwise:
  
- `sudo rm -fr ~/.cocoapods/repos/master`
- `sudo rm -fr ~/Library/Caches/CocoaPods/`
- `sudo gem update --system`
- `sudo gem update`
- `sudo gem cleanup`
+ `sudo rm -fr ~/.cocoapods/repos/master`    \
+ `sudo rm -fr ~/Library/Caches/CocoaPods/`    \
+ `sudo gem update --system`    \
+ `sudo gem update`    \
+ `sudo gem cleanup`    \
  `pod setup`
  
  ## Handy links
