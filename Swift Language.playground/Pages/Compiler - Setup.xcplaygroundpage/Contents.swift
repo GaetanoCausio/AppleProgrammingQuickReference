@@ -18,4 +18,8 @@
  xargs -0 egrep --with-filename --line-number --only-matching "($KEYWORDS).*\$" | \
  perl -p -e "s/($KEYWORDS)/ warning: \$1/"
 ````
+
+ ## Settings for old projects
+ 
+ ✅ Change **Use Legacy Swift Language Version** in each target *Build Setting* to **NO**
  */
