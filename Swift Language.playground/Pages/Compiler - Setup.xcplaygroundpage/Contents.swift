@@ -21,5 +21,6 @@
 
  ## Settings for old projects
  
- ✅ Change **Use Legacy Swift Language Version** in each target *Build Setting* to **NO**
+ ✅ Change **Use Legacy Swift Language Version** in each target *Build Setting* from "Unknown" to **YES** (to maintain old Swift version) or to **NO** (to switch to the newest Swift version). 
+ 
  */
