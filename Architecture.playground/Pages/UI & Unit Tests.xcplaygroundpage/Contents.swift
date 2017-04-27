@@ -13,7 +13,7 @@
  1) Edit scheme of your application
  2) Choose **Test**
  3) Enable option **Gather Coverage Data**
- 3) Run test an go to **Report navigator*
+ 3) Run test an go to **Report navigator**
  
  ## Some Code Examples
  
