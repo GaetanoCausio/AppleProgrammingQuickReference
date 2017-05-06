@@ -8,7 +8,7 @@
  
 ✅ In *Build Settings* under *Swift Compiler – Custom Flags* make sure your **Active Compilations Conditions** is set to **DEBUG** for debug mode
 
-✅ Pick the minimum iOS version in *Build Settings* > **iOS Deployment Target**. Usually you should support the most recent two versions of iOS.
+✅ Pick the minimum iOS version in *Build Settings* > **Deployment Target**. Usually you should support the most recent two versions of iOS.
 
 ✅ Go to the *Build Phases* of your target and add the following script in **Run Script** phase:
  
