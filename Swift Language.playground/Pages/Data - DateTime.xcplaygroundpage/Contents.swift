@@ -6,7 +6,7 @@
 
 import Foundation
 
-let startTime = NSDate()
+let startTime = Date()
 
 let stopTime = abs(startTime.timeIntervalSinceNow)
 
@@ -19,13 +19,13 @@ dateComponents.year = 1973
 dateComponents.month = 4
 dateComponents.day = 3
 
-let endDateComponents = DateComponents(calendar: calendar, year: 2010, month: 2, day: 17)
+let endDateComponents = DateComponents(calendar: calendar, year: 2017, month: 2, day: 09)
 let endDate = calendar.date(from: endDateComponents)!
 
 let dateFormatter = DateFormatter()
-dateFormatter.dateFormat = "yy-MM-dd"
+dateFormatter.dateFormat = "yyyy-MM-dd HH:mm"
 
-print(dateFormatter.string(from: endDate))
+print(dateFormatter.string(from: startTime))
 
 let newDate = endDate.addingTimeInterval(day)
 
