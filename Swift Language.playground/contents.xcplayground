@@ -3,7 +3,7 @@
     <pages>
         <page name='Data - Tuples'/>
         <page name='Data - DateTime'/>
-        <page name='Compiler - Setup'/>
+        <page name='Xcode - Setup'/>
         <page name='Compiler - Macros'/>
         <page name='Cocoa - Command Line Tool'/>
     </pages>

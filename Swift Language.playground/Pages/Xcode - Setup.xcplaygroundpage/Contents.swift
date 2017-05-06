@@ -1,6 +1,6 @@
 /*: (C) Gaetano Causio 2015
 
-# Compiler
+# Xcode - Setup
 
 ## Setting up a Project
  
