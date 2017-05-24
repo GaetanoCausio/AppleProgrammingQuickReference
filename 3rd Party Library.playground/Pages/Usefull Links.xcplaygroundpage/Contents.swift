@@ -4,6 +4,10 @@
  
  A collection of handy quick links to most of the resources that you may need during the development cycle.
  
+ ## Online tools
+ 
+ [Json Editor](http://www.jsoneditoronline.org)
+ 
  ## AI, Machine Learning
  
  [IBM Bluemix](https://bluemix.net)    \

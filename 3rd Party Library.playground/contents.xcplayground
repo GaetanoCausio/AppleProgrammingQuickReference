@@ -4,7 +4,5 @@
         <page name='Git'/>
         <page name='Jazzy'/>
         <page name='Markup Examples '/>
-        <page name='CocoaPods'/>
-        <page name='Usefull Links'/>
     </pages>
 </playground>
