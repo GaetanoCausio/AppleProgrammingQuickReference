@@ -10,6 +10,8 @@
 
 ✅ Pick the minimum iOS version in *Build Settings* > **Deployment Target**. Usually you should support the most recent two versions of iOS.
 
+✅ Enable *Code Coverage* by editing run scheme, going to **Test action** and enable the **Code Coverage checkbox**
+ 
 ✅ Go to the *Build Phases* of your target and add the following script in **Run Script** phase:
  
 ````
@@ -18,7 +20,7 @@
  xargs -0 egrep --with-filename --line-number --only-matching "($KEYWORDS).*\$" | \
  perl -p -e "s/($KEYWORDS)/ warning: \$1/"
 ````
-
+ 
  ## Settings for old projects
  
  ✅ Change **Use Legacy Swift Language Version** in each target *Build Setting* from "Unknown" to **YES** (to maintain old Swift version) or to **NO** (to switch to the newest Swift version). 
