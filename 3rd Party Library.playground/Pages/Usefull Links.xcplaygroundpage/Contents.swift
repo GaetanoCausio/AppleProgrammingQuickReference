@@ -8,6 +8,10 @@
  
  [Json Editor](http://www.jsoneditoronline.org)
  
+ ## References
+ 
+ [SQL Lite](http://www.sqlitetutorial.net)
+ 
  ## AI, Machine Learning
  
  [IBM Bluemix](https://bluemix.net)    \
