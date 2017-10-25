@@ -16,4 +16,7 @@
    <FileRef
       location = "group:Swift Language.playground">
    </FileRef>
+   <FileRef
+      location = "group:IoT AI.playground">
+   </FileRef>
 </Workspace>
