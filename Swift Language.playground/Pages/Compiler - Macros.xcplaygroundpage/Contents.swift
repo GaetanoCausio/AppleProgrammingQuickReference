@@ -9,6 +9,7 @@
  if #available(iOS 8, *) {
     // iOS 8 or up
     let queryItem = NSURLQueryItem()
+    print(queryItem)
  } else {
     // Earlier iOS versions
  }
